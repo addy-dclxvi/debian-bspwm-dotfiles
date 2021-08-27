@@ -35,7 +35,7 @@ xset r rate 250 25
 xbacklight -set 5
 compton -b
 xrdb -merge ~/.Xresources
-hsetroot -fill ~/Pictures/wallpaper.jpg
+hsetroot -fill ~/Pictures/Wallpaper.jpg
 thunar --daemon &
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 xsettingsd &
