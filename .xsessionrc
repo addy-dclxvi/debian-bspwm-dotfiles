@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# ~/.xsessionrc is a file executed by the Display Manager on login
+# I use this file as Autostart instead of ~/.config/bspwm/bspwmrc
+# Because if put my Autostart on it, when I reload my bspwmrc,
+# My Autostart will be executed again. Causing double process
+# Cheers! Addy
+
+#Environtment
+export PATH="${PATH}:/sbin"
+export PATH="${PATH}:$HOME/.local/bin"
+export PATH="${PATH}:$HOME/.config/bspwm"
+export RANGER_LOAD_DEFAULT_RC=FALSE
+export EDITOR=nvim
+export TERM=xterm-256color
+export SHELL=/usr/bin/fish
+export LANG=en_US.utf8
+export LC_COLLATE=C
+export LC_ADDRESS=en_US.utf8
+export LC_CTYPE=en_US.utf8
+export LC_IDENTIFICATION=en_US.utf8
+export LC_MEASUREMENT=id_ID.utf8
+export LC_MESSAGES=en_US.utf8
+export LC_MONETARY=id_ID.utf8
+export LC_NAME=en_US.utf8
+export LC_NUMERIC=id_ID.utf8
+export LC_PAPER=en_US.utf8
+export LC_TELEPHONE=id_ID.utf8
+export LC_TIME=en_US.utf8
+
+# Autostart
+xsetroot -cursor_name left_ptr
+xset b off
+xset r rate 250 25
+xbacklight -set 5
+compton -b
+xrdb -merge ~/.Xresources
+hsetroot -fill ~/Pictures/wallpaper.jpg
+thunar --daemon &
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+xsettingsd &
+dunst &
+sxhkd &
+polybar top &
+
+# Touchpad Settings
+synclient \
+VertEdgeScroll=0 HorizEdgeScroll=0 \
+VertTwoFingerScroll=1 HorizTwoFingerScroll=1 \
+VertScrollDelta=40 HorizScrollDelta=40 \
+MinSpeed=0.2 MaxSpeed=1.4 \
+AccelFactor=0.2 CoastingSpeed=10 \
+TapButton1=1 TapButton2=0 TapButton3=0

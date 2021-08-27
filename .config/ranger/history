@@ -1,0 +1,50 @@
+rename crepes-12.bdf
+gitpush
+cd /etc
+scout -ftsea com
+scout -ftsea mis
+shell git pull
+C
+scout -ftsea hu
+shell gitpush
+scout -ftsea bit
+cd ~
+rename config
+mkdir bspwm
+touch bspwmrc
+mkdir sxhkd
+touch sxhkdrc
+mkdir
+mkdir polybar
+touch config
+rename dracula.conf
+scout -ftsea sx
+scout -ftsea xr
+open_with geany
+scout -ftsea .config
+open_withvim
+open_with\vim
+rename mimeapps.list2
+touch mimeapps.list
+rename downloads
+mark v
+rename powerless.vim
+rename powerline.vim_
+rename powerline.vim
+scout -ftsea po
+rename rc_
+rename rc
+touch autosave
+open_with vim
+scout -ftsea xs
+scout -ftsea xsessionr
+rename rc_0
+rename rc__
+open_with firefox
+cd /mnt/Dump/
+
+shell zip -rf 'file.zip' %s
+open_with
+delete
+open_with 
+rename radio-m3u-collection.zip

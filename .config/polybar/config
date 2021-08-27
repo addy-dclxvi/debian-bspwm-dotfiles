@@ -1,0 +1,72 @@
+[settings]
+throttle-ms = 100
+throttle-limit = 5
+
+[bar/top]
+width = 100%
+height = 32
+background = #282c34
+foreground = #abb2bf
+spacing = 4
+underline-size = 4
+overline-size = 4
+padding = 2
+font-0 = Bitstream Vera Sans:pixelsize=10;2
+modules-left = bspwm xwindow
+modules-center = clock
+modules-right = wireless-network alsa battery
+
+[module/bspwm]
+type = internal/bspwm
+format = <label-state> <label-mode>
+label-focused = %name%
+label-focused-padding = 2
+label-focused-underline = #e06c75
+label-occupied = %name%
+label-occupied-padding = 2
+label-urgent = %name%
+label-urgent-padding = 2
+label-empty = %name%
+label-empty-padding = 2
+label-empty-foreground = #3e4452
+
+[module/xwindow]
+type = internal/xwindow
+label-maxlen = 40
+
+[module/clock]
+type = internal/date
+date = %A %e %B at %H:%M%
+
+[module/alsa]
+type = internal/alsa
+format-volume-padding = 4
+format-muted-padding = 4
+format-volume = <label-volume>
+format-muted = Muted
+label-volume = %percentage%% Volume
+
+[module/wireless-network]
+type = internal/network
+format-connected-padding = 4
+format-disconnected-padding = 4
+interface = wlp2s0
+interval = 4
+label-connected = Wifi %essid%
+label-disconnected = Wifi Disconnected
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = ADP1
+poll-interval = 30
+format-full-padding = 4
+format-charging-padding = 4
+format-discharging-padding = 4
+format-full = <label-full>
+format-charging = <label-charging>
+format-discharging = <label-discharging>
+label-full = Fully Charged
+label-charging = %percentage%% Charging
+label-discharging = %percentage%% Battery
+
