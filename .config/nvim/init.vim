@@ -15,15 +15,18 @@ set smartcase
 set encoding=utf-8
 set modelines=0
 set formatoptions=tqn1
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
 set cmdheight=1
 set laststatus=2
 set backspace=indent,eol,start
 set matchpairs+=<:>
 set noshowmode
 set scrolloff=8
+set noexpandtab
+set copyindent
+set preserveindent
+set tabstop=4
+set shiftwidth=4
+set softtabstop=0
 set list
 set listchars=tab:\│\ 
 hi tabgroup ctermbg=NONE ctermfg=0 cterm=NONE
