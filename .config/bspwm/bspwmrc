@@ -12,7 +12,6 @@ bspc config active_border_color "#e06c75"
 bspc config presel_feedback_color "#56b6c2"
 bspc config borderless_monocle true
 bspc config gapless_monocle true
-bspc config paddingless_monocle false
 bspc config single_monocle true
 
 # Window rules
@@ -42,3 +41,8 @@ bspc rule -a Audacious state=floating follow=on focus=on
 bspc rule -a Firefox:Places state=floating follow=on focus=on
 bspc rule -a Viewnior state=floating follow=on focus=on
 
+# I put other autostart in ~/.xsessionrc to avoid double process when I reload this config
+pkill sxhkd
+sxhkd &
+pkill polybar
+polybar top &

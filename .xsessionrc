@@ -40,8 +40,6 @@ thunar --daemon &
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 xsettingsd &
 dunst &
-sxhkd &
-polybar top &
 
 # Touchpad Settings
 synclient \
