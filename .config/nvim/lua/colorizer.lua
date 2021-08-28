@@ -1,0 +1,1 @@
+/home/addy/.local/share/nvim/site/pack/plugins/start/nvim-colorizer.lua/lua/colorizer.lua
