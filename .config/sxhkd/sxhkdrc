@@ -8,7 +8,7 @@ super + d
 
 # Launch common apps
 super + {e,w,g}
-	{thunar,firefox,geany}
+	{nautilus --new-window,firefox,geany}
 
 # Take a screenshot
 Print
@@ -26,13 +26,17 @@ ctrl + Print
 XF86Audio{RaiseVolume,LowerVolume,Mute}
 	pulsevol {--up,--down,--mute}
 
+#Brightness control
+XF86MonBrightness{Up,Down}
+	xbacklight {-inc 5,-dec 5}
+
 # Quit bspwm normally
 super + q
 	bspc quit
 
 # Reload bspwm config
 super + BackSpace
-	bspwmrc
+	bspwmrc; pkill sxhkd; sxhkd &
 
 # Close or kill app
 super + {_,shift + }c

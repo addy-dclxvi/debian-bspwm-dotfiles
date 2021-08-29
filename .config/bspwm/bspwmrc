@@ -19,9 +19,8 @@ bspc rule -r *:*
 bspc rule -a kitty desktop='^1' follow=on focus=on
 bspc rule -a Firefox-esr desktop='^2' follow=on focus=on
 bspc rule -a Transmission-gtk desktop='^2' follow=on focus=on
-bspc rule -a Thunar desktop='^3' follow=on focus=on
+bspc rule -a Org.gnome.Nautilus desktop='^3' follow=on focus=on
 bspc rule -a File-roller desktop='^3' follow=on focus=on
-bspc rule -a Xarchiver desktop='^3' follow=on focus=on
 bspc rule -a libreoffice desktop='^4' follow=on focus=on
 bspc rule -a *:soffice desktop='^4' follow=on focus=on
 bspc rule -a Soffice desktop='^4' follow=on focus=on
@@ -40,9 +39,3 @@ bspc rule -a Gparted desktop='^3' follow=on focus=on
 bspc rule -a Audacious state=floating follow=on focus=on
 bspc rule -a Firefox:Places state=floating follow=on focus=on
 bspc rule -a Viewnior state=floating follow=on focus=on
-
-# I put other autostart in ~/.xsessionrc to avoid double process when I reload this config
-pkill sxhkd
-sxhkd &
-pkill polybar
-polybar top &
