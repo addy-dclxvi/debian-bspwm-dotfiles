@@ -41,7 +41,7 @@ nmap <C-Down> 8j
 nmap <C-O> o<Esc>
 nmap <C-Z> u
 nmap <C-Y> <C-R>
-nmap <C-F> /
+nmap <C-F> :%s/
 nmap <C-H> i<C-W><Esc>
 nmap <C-T> :tabnew 
 nmap <A-Right> :tabnext<CR>
@@ -59,7 +59,7 @@ imap <C-Down> <Esc>8ja
 imap <C-O> <Esc>o
 imap <C-Z> <Esc>ua
 imap <C-Y> <Esc><C-R>a
-imap <C-F> <Esc>/
+imap <C-F> <Esc>:%s/
 imap <C-H> <C-W>
 imap <C-V> <Esc>pa
 imap <C-T> <Esc>:tabnew 
@@ -81,11 +81,17 @@ command SpellIndonesian :set spell spelllang=id
 command SpellOff :set nospell
 command ReduceSpace :%s/  / /g
 
+call plug#begin()
+Plug 'scrooloose/syntastic'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'joshdick/onedark.vim'
+Plug 'lifepillar/vim-mucomplete'
+Plug 'norcalli/nvim-colorizer.lua'
+call plug#end()
+
 colorscheme onedark
 lua require'colorizer'.setup()
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
 let g:syntastic_always_populate_loc_list=1
 let g:syntastic_auto_loc_list=1
 let g:syntastic_check_on_open=1
@@ -95,11 +101,15 @@ let g:airline_theme='onedark'
 let g:airline#extensions#whitespace#enabled=0
 let g:airline_detect_spell=1
 let g:airline_detect_spelllang=1
+let g:airline_section_c_only_filename = 1
 let g:airline_section_c=''
 let g:airline_section_x='%f'
-let g:airline_section_y='%{&filetype}'
-let g:airline_section_z='%{&fileformat}'
+let g:airline_section_y='%{&fileformat}'
+let g:airline_section_z='%{&filetype}'
 let g:mucomplete#enable_auto_at_startup=1
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 set completeopt+=menuone
 set completeopt+=noselect
 set shortmess+=c
