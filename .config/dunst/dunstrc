@@ -1,13 +1,13 @@
 [global]
 monitor = 0
 follow = mouse
-geometry = "300x60-28+28"
+geometry = "320x120-28-28"
 indicate_hidden = yes
 shrink = no
 separator_height = 0
 padding = 32
-horizontal_padding = 32
-frame_width = 2
+horizontal_padding = 48
+frame_width = 4
 sort = no
 idle_threshold = 120
 font = Bitstream Vera Sans 9
@@ -39,16 +39,16 @@ context = ctrl+shift+period
 timeout = 4
 background = "#282c34"
 foreground = "#abb2bf"
-frame_color = "#282c34"
+frame_color = "#98c379"
 
 [urgency_normal]
 timeout = 8
 background = "#282c34"
 foreground = "#abb2bf"
-frame_color = "#282c34"
+frame_color = "#e5c07b"
 
 [urgency_critical]
 timeout = 0
 background = "#282c34"
 foreground = "#abb2bf"
-frame_color = "#282c34"
+frame_color = "#e06c75"
