@@ -6,7 +6,7 @@
 # My Autostart will be executed again. Causing double process
 # Cheers! Addy
 
-#Environtment
+## Environtment
 export PATH="${PATH}:/sbin"
 export PATH="${PATH}:$HOME/.local/bin"
 export PATH="${PATH}:$HOME/.config/bspwm"
@@ -28,20 +28,22 @@ export LC_PAPER=en_US.utf8
 export LC_TELEPHONE=id_ID.utf8
 export LC_TIME=en_US.utf8
 
-# Autostart
+## Autostart
 xsetroot -cursor_name left_ptr
 xset b off
 xset r rate 250 25
 xbacklight -set 5
-compton -b
 xrdb -merge ~/.Xresources
-hsetroot -fill ~/Pictures/Wallpaper.jpg
-thunar --daemon &
+hsetroot -fill ~/Pictures/Cartography.png
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 xsettingsd &
 dunst &
+sxhkd &
 
-# Touchpad Settings
+# Wait until Bspwm is loaded to prevent Bspwm process cannot be found by Polybar
+(sleep 0.2; polybar top) &
+
+## Touchpad Settings
 synclient \
 VertEdgeScroll=0 HorizEdgeScroll=0 \
 VertTwoFingerScroll=1 HorizTwoFingerScroll=1 \
