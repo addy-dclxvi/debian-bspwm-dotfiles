@@ -1,2 +1,17 @@
 #!/bin/bash
-apt-get install --no-install-recommends acpi-support alsa-utils android-tools-adb android-tools-fastboot bspwm caca-utils ca-certificates cmus compton dbus-x11 dosfstools dunst evince faba-icon-theme ffmpeg file file-roller firmware-intel-sound firmware-iwlwifi firefox-esr fish fonts-firacode fonts-liberation2 fonts-material-design-icons-iconfont geany gimp-plugin-registry git gparted gtk2-engines-pixbuf gucharmap gvfs gvfs-backends gvfs-fuse gzip highlight hsetroot htop i965-va-driver intel-microcode kitty less libmtp-common libmtp-runtime libnotify-bin libreoffice-calc libreoffice-gtk3 libreoffice-style-sifr libreoffice-writer lxappearance man-db materia-gtk-theme mpv mtp-tools nautilus neovim network-manager ntfs-3g p7zip-full pavucontrol policykit-1-gnome polybar printer-driver-gutenprint pulseaudio ranger rofi scrot sudo system-config-printer system-config-printer-udev tlp ttf-bitstream-vera tumbler transmission-gtk viewnior wget x11-xserver-utils xbacklight xdg-user-dirs xdg-utils xserver-xorg-core xserver-xorg-input-kbd xserver-xorg-input-libinput xserver-xorg-input-mouse xserver-xorg-input-synaptics xserver-xorg-video-intel xsettingsd youtube-dl
+apt-get install --no-install-recommends acpi-support alsa-utils android-tools-adb \
+android-tools-fastboot bspwm caca-utils ca-certificates cmus compton dbus-x11 \
+dosfstools dunst evince faba-icon-theme ffmpeg file file-roller \
+firmware-intel-sound firmware-iwlwifi firefox-esr fish fonts-firacode \
+fonts-liberation2 fonts-material-design-icons-iconfont geany gimp-plugin-registry \
+git gparted gtk2-engines-pixbuf gucharmap gvfs gvfs-backends gvfs-fuse gzip \
+highlight hsetroot htop i965-va-driver intel-microcode kitty less libmtp-common \
+libmtp-runtime libnotify-bin libreoffice-calc libreoffice-gtk3 \
+libreoffice-style-sifr libreoffice-writer lxappearance man-db materia-gtk-theme \
+mpv mtp-tools nautilus neovim network-manager ntfs-3g p7zip-full pavucontrol \
+policykit-1-gnome polybar printer-driver-gutenprint pulseaudio ranger rofi scrot \
+sudo system-config-printer system-config-printer-udev tlp ttf-bitstream-vera \
+transmission-gtk viewnior wget x11-xserver-utils xbacklight xdg-user-dirs \
+xdg-utils xserver-xorg-core xserver-xorg-input-kbd xserver-xorg-input-libinput \
+xserver-xorg-input-mouse xserver-xorg-input-synaptics xserver-xorg-video-intel \
+xsettingsd youtube-dl
