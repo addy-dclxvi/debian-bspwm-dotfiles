@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Lockscreen
+Exec=lock
+Terminal=false
+Type=Application

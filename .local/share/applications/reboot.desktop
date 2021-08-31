@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Reboot
+Exec=systemctl reboot
+Terminal=false
+Type=Application

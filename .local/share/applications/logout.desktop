@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Logout
+Exec=bspc quit
+Terminal=false
+Type=Application

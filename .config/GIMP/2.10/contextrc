@@ -1,0 +1,16 @@
+# GIMP user context
+
+(tool "gimp-move-tool")
+(paint-info "gimp-paintbrush")
+(foreground (color-rgb 0.24313725490196078 0.26666666666666666 0.32156862745098042))
+(background (color-rgb 0.59607843137254901 0.76470588235294112 0.47450980392156861))
+(brush "2. Hardness 050")
+(dynamics "Dynamics Off")
+(mybrush "Standard")
+(pattern "Pine")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(font "Sans-serif Bold")
+(tool-preset "Core Pointer")
+
+# end of user context

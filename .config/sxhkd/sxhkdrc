@@ -1,14 +1,18 @@
 # Launch terminal
 super + Return
-	kitty
+	x-terminal-emulator
 
 # Launch Rofi start menu
-super + d
+super + a
 	launch
 
 # Launch common apps
 super + {e,w,g}
 	{nautilus --new-window,firefox,geany}
+
+# Lockscreen
+super + l
+	lock
 
 # Take a screenshot
 Print

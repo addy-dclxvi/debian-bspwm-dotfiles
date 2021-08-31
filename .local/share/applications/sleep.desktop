@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Sleep
+Exec=systemctl suspend
+Terminal=false
+Type=Application

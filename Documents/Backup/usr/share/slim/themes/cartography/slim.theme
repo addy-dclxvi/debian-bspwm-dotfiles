@@ -1,0 +1,20 @@
+msg_color #98c379
+msg_font Sans:size=18:bold:dpi=96
+msg_x 50%
+msg_y 30%
+session_color #98c379
+session_font Sans:size=16:bold:dpi=96
+session_x 50%
+session_y 90%
+background_style stretch
+background_color #2c323c
+input_panel_x 50%
+input_panel_y 50%
+input_name_x 118
+input_name_y 81
+input_pass_x 118
+input_pass_y 146 
+input_font Sans:size=14:dpi=96
+input_color #98c379
+username_msg 
+password_msg 
