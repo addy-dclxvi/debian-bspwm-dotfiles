@@ -42,6 +42,8 @@ sxhkd &
 
 # Wait until Bspwm is loaded to prevent Bspwm process cannot be found by Polybar
 (sleep 0.2; polybar top) &
+# And compton
+(sleep 2; compton -b)
 
 ## Touchpad Settings
 synclient \
