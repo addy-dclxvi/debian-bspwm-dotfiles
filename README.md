@@ -38,7 +38,6 @@ Not good for hiding sensitive image or video.
 
 - **Terminal** Kitty
 - **Compositor** Compton
-- **GTK Theme** Materia-light
 - **Hardware Acceleration Driver** i965-va-driver
 - **Encoder/Decoder** ffmpeg
 - **Media Player** MPV
@@ -152,6 +151,8 @@ Progressive / Extreme / Technical Death Metal fans.
 Listening radio is better for music discovery.
 I can find many underrated artists and songs from radio.
 
+- **GTK Theme** Materia-light
+- **Icons** Faba
 - **File Manager** Nautilus
 
 ![](https://i.imgur.com/PBNhpEy.png)
@@ -167,7 +168,6 @@ Also, I have pulled GNOME desktop other component
 like Evince, File Roller, GVFS, Pavucontrol, and GNOME Polkit anyway.
 
 - **Archive Manager** File Roller
-- **Icons** Faba
 - **PDF Reader** Evince
 
 ![](https://i.imgur.com/XINPsbg.png)
