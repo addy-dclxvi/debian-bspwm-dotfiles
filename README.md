@@ -286,7 +286,7 @@ I only need to type `launch` to execute the Rofi launcher script.
 - I use Bspwm window rules to make my opened programs more organized.
 Workspace 1 for Terminal. Workspace 2 for Web. Workspace 3 for Files.
 Workspace 4 for Office. Workspace 5 for Multimedia. And Workspace 6 for Settings.
-- I have no dedicated Power Menu. So, create some `*.desktop` files in
+- I have no dedicated Power Menu. So, I create some `*.desktop` files in
 `~/.local/share/applications/` for shutdown, reboot, sleep, hibernate, logout,
 and lock. They will appear in Rofi just like normal apps. Accesible on both
 keyboard and mouse.
