@@ -194,8 +194,6 @@ Nothing special here. Default config.
 
 ![](https://i.ibb.co/yFHgph6/gimp.png)
 
-![]([https://i.imgur.com/cGlUGDV.png)
-
 Unfortunately, Python 2 Support has been dropped in Debian 11.
 My GIMP scripts collection mostly no longer works.
 
