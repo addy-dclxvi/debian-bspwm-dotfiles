@@ -336,7 +336,7 @@ only works if there are two window or more in a workspace
 - **Super + L** Lockscreen
 - **PrtSc** Take Screenshot then preview using default image viewer
 - **Alt + PrtSc** Screenshot of active window only
-- **Ctrl + PrtSc** Draw a rectange to determine screenshoted area
+- **Ctrl + PrtSc** Draw a rectangle to determine screenshoted area
 - **Super + Drag Left Mouse Button** Move floating window
 - **Super + Drag Right Mouse Button** Resize window
 - **Scroll Up/Down on Polybar Volume Module** Increase/decrease the volume
