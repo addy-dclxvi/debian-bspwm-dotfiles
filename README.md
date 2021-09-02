@@ -57,7 +57,7 @@ I have written an article about fish
 
 - **CLI File Manager** Ranger
 
-![](https://i.ibb.co/9wH5jtK/ranger.png)
+![](https://i.ibb.co/pWjFpyV/ranger.png)
 
 - **CLI Image Viewer** Caca
 - **CLI Text Editor** Neovim
@@ -194,8 +194,9 @@ Nothing special here. Default config.
 ![](https://i.imgur.com/UsWzYH1.png)
 
 - **Libreoffice Theme** Sifr
-
 - **Graphic Editor** GIMP
+
+!()[https://i.ibb.co/yFHgph6/gimp.png]
 
 ![]([https://i.imgur.com/cGlUGDV.png)
 
