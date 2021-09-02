@@ -108,6 +108,6 @@ A repository contains backups of my Debian configurations to make myself easier 
 
 - **Graphic Editor** GIMP
 
-![]([https://i.imgur.com/Fr36HJ6.png)
+![]([https://i.imgur.com/cGlUGDV.png)
 
 - **Printer Driver** GutenPrint
