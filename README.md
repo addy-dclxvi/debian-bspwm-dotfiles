@@ -1,7 +1,8 @@
 # Dotfiles
 
 ## Introduction
-A repository contains backups of my Debian configurations to make myself easier to recreate my setup on a new OS install.
+A repository contains backups of my Debian configurations to make myself easier
+to recreate my setup on a new OS install.
 
 ## Software I use
 - **Distro** Debian 11
@@ -24,36 +25,6 @@ And I try to make my Bspwm setup comfortably usable on both keyboard and mouse.
 
 ![](https://i.imgur.com/cmQFJji.png)
 
-- **Terminal** Kitty
-- **Compositor** Compton
-- **GTK Theme** Materia-light
-- **File Manager** Nautilus
-
-![](https://i.imgur.com/PBNhpEy.png)
-
-Usually I use Thunar.
-But after Thunar migrated to GTK3, I feel it heavier.
-I tried PCManFM and SpaceFM but did not feel comfortable.
-So I try Nautilus, and it actually not heavy if runs without GNOME.
-And with `--no-install-recommends` flag when installing.
-It only pulls a small amount of GNOME dependencies,
-just like Thunar pulls some XFCE dependencies.
-Also, I have pulled GNOME desktop other component
-like Evince, File Roller, GVFS, Pavucontrol, and GNOME Polkit anyway.
-
-- **Archive Manager** File Roller
-- **Icons** Faba
-- **PDF Reader** Evince
-
-![](https://i.imgur.com/XINPsbg.png)
-
-I choose Evince because it has DJVU support out the box.
-I can use it as ebook reader.
-
-The Murder of Roger Ackroyd by Agatha Christie is one of the best book I ever read.
-I still can't believe the ending. It can't be possible.
-I have been tricked for 26 chapters.
-
 - **Lock Screen** i3lock
 
 ![](https://i.imgur.com/5QaNc7i.png)
@@ -65,12 +36,9 @@ Clean sample without any without any window opened.
 Dirty example with some windows opened.
 Not good for hiding sensitive image or video.
 
-- **Web Browser** Firefox
-
-![](https://i.imgur.com/1USbRal.png)
-
-Nothing special here. Default config.
-
+- **Terminal** Kitty
+- **Compositor** Compton
+- **GTK Theme** Materia-light
 - **Hardware Acceleration Driver** i965-va-driver
 - **Encoder/Decoder** ffmpeg
 - **Media Player** MPV
@@ -117,7 +85,7 @@ In example above, I stream a YouTube video from Kurzgesagt channel.
 - **CLI Shell** Fish
 
 I have written an article about fish
-(here)[https://addy-dclxvi.github.io/post/fish-shell/]
+[here](https://addy-dclxvi.github.io/post/fish-shell/)
 
 - **CLI File Manager** Ranger
 
@@ -179,10 +147,43 @@ in `~/Music` folder.
 
 > *Why don't you use Spotify like normal people do?*
 
-Because Spotify recommendation playlist is not designned for
+Because Spotify recommendation playlist is not designed for
 Progressive / Extreme / Technical Death Metal fans.
 Listening radio is better for music discovery.
 I can find many underrated artists and songs from radio.
+
+- **File Manager** Nautilus
+
+![](https://i.imgur.com/PBNhpEy.png)
+
+Usually I use Thunar.
+But after Thunar migrated to GTK3, I feel it heavier.
+I tried PCManFM and SpaceFM but did not feel comfortable.
+So I try Nautilus, and it actually not heavy if runs without GNOME.
+And with `--no-install-recommends` flag when installing.
+It only pulls a small amount of GNOME dependencies,
+just like Thunar pulls some XFCE dependencies.
+Also, I have pulled GNOME desktop other component
+like Evince, File Roller, GVFS, Pavucontrol, and GNOME Polkit anyway.
+
+- **Archive Manager** File Roller
+- **Icons** Faba
+- **PDF Reader** Evince
+
+![](https://i.imgur.com/XINPsbg.png)
+
+I choose Evince because it has DJVU support out the box.
+I can use it as ebook reader.
+
+The Murder of Roger Ackroyd by Agatha Christie is one of the best book I ever read.
+I still can't believe the ending. It can't be possible.
+I have been tricked for 26 chapters.
+
+- **Web Browser** Firefox
+
+![](https://i.imgur.com/1USbRal.png)
+
+Nothing special here. Default config.
 
 - **Spreadseet** Libreoffice Calc
 
@@ -200,8 +201,9 @@ Unfortunately, Python 2 Support has been dropped in Debian 11.
 My GIMP scripts collection mostly no longer works.
 
 - **Printer Driver** CUPS + GutenPrint
+- **Torrent Client** Transmission
 
-### How I Set Up Debian Part I : Debian Expert Installer
+## How I Set Up Debian Part I : Debian Expert Installer
 1. I use Debian Minimal CD (377MB) without any Desktop Environment.
 2. Burn it to USB like usual and boot it.
 3. I use **Expert Install** instead of normal installer for some reason.
@@ -221,7 +223,7 @@ On normal installer, the BIOS clock is treated as UTC.
 It will be boot faster than Arch base installation. And even faster than Alpine.
 Unsure about Void, the last time I use Void, I was still on 5400 RPM HDD.
 
-### How I Set Up Debian Part II: Get Everything Back
+## How I Set Up Debian Part II: Get Everything Back
 1. Edit the `/etc/apt/sources.list` to enable the online repository.
 ```
 deb http://deb.debian.org/debian bullseye main contrib non-free
@@ -229,7 +231,10 @@ deb http://deb.debian.org/debian-security/ bullseye-security main contrib non-fr
 deb http://deb.debian.org/debian bullseye-updates main contrib non-free
 ```
 
-3. Connect to the internet 
+3. Connect to the internet. Since I have not installed the wifi driver.
+The easiest way to connect to the internet is by using my phone in USB Tethering
+mode. Attach the phone then `sudo dhclient usb0`. `usb0` is my USB interface, can be
+found using `ip a` command.
 2. `sudo apt update && sudo apt upgrade`
 3. `sudo apt install git ca-certificates --no-install-recommends`
 4. Clone this git repository
@@ -241,21 +246,24 @@ deb http://deb.debian.org/debian bullseye-updates main contrib non-free
 Every packages I use are available in the repository. No need self compiling.
 7. Reboot and fix some problems.
 
-### How I Set Up Debian Part III: Extra Steps
+## How I Set Up Debian Part III: Extra Steps
 - Change the default shell to fish
 `chsh addy -s /usr/bin/fish`
 - Copy the xbacklight configuration from `Documents/Backup/etc/X11/xorg.conf.d/`
 to its original location. Without it my backlight cannot be reduced.
 - Copy `Documents/Backup/usr/share/polkit-1/actions/` to its original location.
-Without it, Nautilus cannot mount drive.
+Without it, Nautilus cannot mount my external drive.
 - Copy `Documents/Backup/usr/share/slim/themes` to its original location.
 Then enable the themes by editing `/etc/slim.conf`.
 - (Optional) Copy fonts from Windows partition to reduce the chance of broken
 layout in Libreoffice when opening *docx* and *xlsx* files.
+- I have installed the hardware acceleration driver.
+Firefox can use it by editing `layers.acceleration.force enabled`
+in `about:config`
 
 ![](https://i.imgur.com/oJDiOnA.png)
 
-### Notes
+## Notes
 - The amount of packages is 1000+ due to Debian package splitting.
 It looks less cool on Neofetch. But it's actually pull less package content than
 distros without package splitting. For example I can install only Libreoffice
@@ -269,3 +277,46 @@ My 9 years old ThinkPad X230 still works pretty well with Debian.
 - `~/.local/bin/` is where I place the scripts. I export that location to my
 `$PATH` using `~/.xsessionrc` file. So, instead of typing `~/.local/bin/launch`,
 I only need to type `launch` to execute the Rofi launcher script.
+- I use `nmtui` command in terminal to connect to wifi
+(after the network manager and wifi driver installed)
+- I use Bspwm window rules to make my opened programs more organized.
+Workspace 1 for Terminal. Workspace 2 for Web. Workspace 3 for Files.
+Workspace 4 for Office. Workspace 5 for Multimedia. And Workspace 6 for Settings.
+- Installing Debian from minimal install could be harder than Installing Arch.
+Due to lack of documentation. And not every Arch Wiki guide can be applied on
+Debian because different package manager, package names, package versions
+(package versions in Debian mostly too old), different installation method, etc.
+
+## Keybinds
+I use mouse a lot. So, I try to make my configurations comfortable to use on both
+mouse and keyboard. And I try to make the essential keybinds can be used using
+left hand only, but still easy to memorize.
+
+- **Super + Enter** Launch terminal
+- **Super + A** App launcher
+- **Super + W** launch Web Browser
+- **Super + E** Launch File Explorer
+- **Super + Q** Quit Bspwm
+- **Super + Backspace** Reload Bspwm
+- **Super + C** or **Alt + F4** Close app
+- **Super + Shift + C** Kill app
+- **Super + F** Fullscreen mode, hit it again to back to normal mode
+- **Super + H/V** Split horizontal / vertical
+- **Super + R** Cancel split
+- **Super + Space** Toggle between floating mode and tiling mode
+- **Super + Shift + Arrow** Send window to another edge of the screen,
+only works if there are two window or more in a workspace
+- **Alt + Tab** Switch focus to next window, including floated window
+- **Alt + + Shift + Tab** Switch focus to previous window, including floated window
+- **Super + Tab** Switch to next window even if they are in another workspace
+- **Control + Alt + Left/Right** Switch to next / previous workspace
+- **Super + 1-6** Switch to workspace number
+- **Super + Shift + 1-6** Send focused window to other workspace
+- **Super + Control + Arrow** Expand window size
+- **Super + Alt + Arrow** Shrink window size
+- **Alt + Shift + Arrow** Move floating window
+- **Supel + L** Lockscreen
+- **Super + Drag Right Mouse Button** Resize window
+- **Scroll Up/Down on Polybar Volume Module** Increase/decrease the volume
+- **Left Click on Polybar Volume Module** Mute/Unmute the volume
+- **Right Click on Polybar Window Title Module** Close the window
