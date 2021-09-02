@@ -261,13 +261,14 @@ Without it, Nautilus cannot mount my external drive.
 Then enable the themes by editing `/etc/slim.conf`.
 - (Optional) Copy fonts from Windows partition to reduce the chance of broken
 layout in Libreoffice when opening *docx* and *xlsx* files.
+
+![](https://i.imgur.com/oJDiOnA.png)
+
 - I have installed the hardware acceleration driver.
 Firefox can use it by editing `layers.acceleration.force enabled`
 in `about:config`
 - I want Neovim to be my default CLI text editor. Can be set using
 `sudo update-alternatives --config-editor` command.
-
-![](https://i.imgur.com/oJDiOnA.png)
 
 ## Notes
 - The amount of packages is 1000+ due to Debian package splitting.
@@ -334,3 +335,11 @@ only works if there are two window or more in a workspace
 - **Scroll Up/Down on Polybar Volume Module** Increase/decrease the volume
 - **Left Click on Polybar Volume Module** Mute/Unmute the volume
 - **Right Click on Polybar Window Title Module** Close the window
+
+## Credits
+- I get the wallpaper from
+[Freepik](https://www.freepik.com/free-vector/map-big-data-modern-city_8289177.htm)
+
+LICENSE Free with Attribution
+
+<a href="https://www.freepik.com/vectors/city">City vector created by GarryKillian - www.freepik.com</a>
