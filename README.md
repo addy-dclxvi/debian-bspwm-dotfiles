@@ -101,7 +101,7 @@ and tried to quit Writer by typing <Esc> :wq <Enter>.
 I set the **PrtSc** key to take screenshot using scrot,
 then instantly preview the result using default image viewer.
 So I can hit the delete button in my keyboard if unsatisfied
-with result. Or right click on the image then select edit to
+with the result. Or right click on the image then select edit to
 instantly edit it using GIMP without opening the file manager.
 
 - **Wallpaper Handler** hsetroot
