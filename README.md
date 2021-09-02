@@ -67,6 +67,9 @@ I have written an article about fish
 I'm not a programmer. So my Neovim configuration is pretty simple,
 centralized in `~/.config/nvim/init.vim`. Not many plugins installed.
 Only statusline, syntax checker, auto completion, and hex code colorizer.
+I save a copy of the plugins in this repository to make me easier recreating
+this setup on a freshly installed machine. They are placed in
+`~/.config/nvim/` and `~/.local/share/nvim/`.
 
 ![](https://i.imgur.com/4deA5tS.png)
 
