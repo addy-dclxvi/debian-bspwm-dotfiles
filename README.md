@@ -88,7 +88,7 @@ and tried to quit Writer by typing <Esc> :wq <Enter>.
 
 - **GUI Text Editor** Geany
 - **Screenshooter** scrot
-- **Wallpaper Handler** Hsetroot
+- **Wallpaper Handler** hsetroot
 - **Brightness Manager** xbacklight
 - **Music Player** Cmus
 
@@ -333,10 +333,7 @@ only works if there are two window or more in a workspace
 - **Super + Control + Arrow** Expand window size
 - **Super + Alt + Arrow** Shrink window size
 - **Alt + Shift + Arrow** Move floating window
-- **Super + L** Lockscreen
-- **PrtSc** Take Screenshot then preview using default image viewer
-- **Alt + PrtSc** Screenshot of active window only
-- **Ctrl + PrtSc** Draw a rectange to determine screenshoted area
+- **Supel + L** Lockscreen
 - **Super + Drag Right Mouse Button** Resize window
 - **Scroll Up/Down on Polybar Volume Module** Increase/decrease the volume
 - **Left Click on Polybar Volume Module** Mute/Unmute the volume
