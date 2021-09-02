@@ -9,12 +9,17 @@ A repository contains backups of my Debian configurations to make myself easier 
 - **Display Manager** Slim
 ![](https://i.imgur.com/nUNa3Ws.png)
 - **Desktop Environment** None
+- **WM** Bspwm
+![](https://imgur.com/PejIq3q.png)
 - **Launcher** Rofi
 ![](https://imgur.com/cmQFJji.png)
 - **Terminal** Kitty
 - **Compositor** Compton
 - **GTK Theme** Materia-light
 - **Icons** Faba
+- **Lock Screen**
+![](https://imgur.com/5QaNc7i.png)
+![](https://imgur.com/OAXaEW3.png)
 - **Web Browser** Firefox
 ![](https://imgur.com/1USbRal.png)
 - **Hardware Acceleration Driver** i965-va-driver
