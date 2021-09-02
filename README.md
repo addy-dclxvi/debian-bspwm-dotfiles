@@ -44,6 +44,12 @@ Not good for hiding sensitive image or video.
 - **Power Manager** TLP
 - **Image Viewer** Viewnior
 - **Sound Mixer** PulseAudio
+
+I have tried to use pure ALSA without PulseAudio, but it makes my
+life harder. When I attached my headphone, the speaker was still on.
+I needed to turn the speaker off manually from `alsamixer` command.
+Better to use PulseAudio to make my life easier.
+
 - **Policy Kit Frontend** Gnome Polkit
 - **Notification Daemon** Dunst
 
