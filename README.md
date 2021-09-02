@@ -123,15 +123,15 @@ I can find many underrated artists and songs from radio.
 
 ![](https://i.imgur.com/WEo0CDK.png)
 
-> Gentlemen, welcome to Arch Club.
-> The first rule of Arch Club is you tell everyone you use Arch.
-> The second rule of Arch Club is YOU HAVE TO TELL EVERYONE you use Arch!!
-> Third rule of Arch Club, Someone yells "Install Gentoo!", goes limp, taps out,
-> the install is over. Fourth rule, only one guy to an install.
-> Fifth rule, one install at a time, fellas. Sixth rule, No YouTube tutorial,
-> no blogger tutorial. Seventh rule, install will go on as long as they have to.
-> And the eighth and final rule, If this is your first night at Arch Club,
-> you have to install Arch!
+> *Gentlemen, welcome to Arch Club.*
+> *The first rule of Arch Club is you tell everyone you use Arch.*
+> *The second rule of Arch Club is YOU HAVE TO TELL EVERYONE you use Arch!!*
+> *Third rule of Arch Club, Someone yells "Install Gentoo!", goes limp, taps out,*
+> *the install is over. Fourth rule, only one guy to an install.*
+> *Fifth rule, one install at a time, fellas. Sixth rule, No YouTube tutorial,*
+> *no blogger tutorial. Seventh rule, install will go on as long as they have to.*
+> *And the eighth and final rule, If this is your first night at Arch Club,*
+> *you have to install Arch!*
 
 
 ![](https://i.imgur.com/E1nOJiE.png)
