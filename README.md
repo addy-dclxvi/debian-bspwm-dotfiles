@@ -337,9 +337,26 @@ only works if there are two window or more in a workspace
 - **Right Click on Polybar Window Title Module** Close the window
 
 ## Credits
+- i3lock Blur script originally written by
+[petvas](https://github.com/petvas/i3lock-blur/blob/master/lock.sh)
+
+- I get the PulseAudio controller script from
+[Yuune](https://github.com/Yuune)'s repository
+
+- Vim Plug [original repository](https://github.com/junegunn/vim-plug)
+- nvim-colorizer
+[original repository](https://github.com/norcalli/nvim-colorizer.lua)
+- One Dark colorscheme
+[original repository](https://github.com/joshdick/onedark.vim)
+- Syntastic
+[original repository](https://github.com/vim-syntastic/syntastic)
+- Mu Complete [original repository](https://github.com/lifepillar/vim-mucomplete)
+- Airline [original repository](https://github.com/vim-airline/vim-airline)
 - I get the wallpaper from
 [Freepik](https://www.freepik.com/free-vector/map-big-data-modern-city_8289177.htm)
 
 LICENSE Free with Attribution
 
-<a href="https://www.freepik.com/vectors/city">City vector created by GarryKillian - www.freepik.com</a>
+[City vector created by GarryKillian](https://www.freepik.com/vectors/city)
+[www.freepik.com](www.freepik.com)
+
