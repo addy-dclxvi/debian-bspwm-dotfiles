@@ -333,7 +333,10 @@ only works if there are two window or more in a workspace
 - **Super + Control + Arrow** Expand window size
 - **Super + Alt + Arrow** Shrink window size
 - **Alt + Shift + Arrow** Move floating window
-- **Supel + L** Lockscreen
+- **Super + L** Lockscreen
+- **PrtSc** Take Screenshot then preview using default image viewer
+- **Alt + PrtSc** Screenshot of active window only
+- **Ctrl + PrtSc** Draw a rectange to determine screenshoted area
 - **Super + Drag Right Mouse Button** Resize window
 - **Scroll Up/Down on Polybar Volume Module** Increase/decrease the volume
 - **Left Click on Polybar Volume Module** Mute/Unmute the volume
