@@ -323,7 +323,7 @@ left hand only, but still easy to memorize.
 - **Super + Shift + Arrow** Send window to another edge of the screen,
 only works if there are two window or more in a workspace
 - **Alt + Tab** Switch focus to next window, including floated window
-- **Alt + + Shift + Tab** Switch focus to previous window, including floated window
+- **Alt + Shift + Tab** Switch focus to previous window, including floated window
 - **Super + Tab** Switch to next window even if they are in another workspace
 - **Control + Alt + Left/Right** Switch to next / previous workspace
 - **Super + 1-6** Switch to workspace number
