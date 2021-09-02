@@ -50,7 +50,7 @@ A repository contains backups of my Debian configurations to make myself easier 
 ![](https://imgur.com/7brOSuK.png)
 - **GUI Text Editor** Geany
 - **Graphic Editor** GIMP
-![]([https://imgur.com/ij4wv6b.png)
+![]([https://i.imgur.com/ij4wv6b.png)
 - **Screenshooter** scrot
 - **Wallpaper Handler** Hsetroot
 - **Brightness Manager** xbacklight
