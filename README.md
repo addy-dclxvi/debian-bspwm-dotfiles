@@ -64,19 +64,15 @@ I have written an article about fish
 
 ![](https://i.imgur.com/8AVGrcH.png)
 
+I'm not a programmer. So my Neovim configuration is pretty simple,
+centralized in `~/.config/nvim/init.vim`. Not many plugins installed.
+Only statusline, syntax checker, auto completion, and hex code colorizer.
+
 ![](https://i.imgur.com/4deA5tS.png)
 
 ![](https://i.imgur.com/7brOSuK.png)
 
 ![](https://i.imgur.com/ZL25J8j.png)
-
-I'm not a programmer. So my Neovim configuration is pretty simple,
-centralized in `~/.config/nvim/init.vim`. Not many plugins installed.
-Only statusline, syntax checker, auto completion, and hex code colorizer.
-
-I save a copy of the plugins in this repo to make myself easier
-to recreate my setup.
-They are placed in `~/.config/nvim/*` and `~/.local/share/nvim*`.
 
 My keymap is uncommon for Neovim.
 I map **Ctrl + Space** for next auto completion,
@@ -301,6 +297,8 @@ found using `ip a` command.
 Due to lack of documentation. And not every Arch Wiki guide can be applied on
 Debian because different package manager, package names, package versions
 (package versions in Debian mostly too old), different installation method, etc.
+
+- My screen resolution is only 1366x768
 
 ## Keybinds
 I use mouse a lot. So, I try to make my configurations comfortable to use on both
