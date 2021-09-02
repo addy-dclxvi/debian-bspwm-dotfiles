@@ -217,7 +217,7 @@ Expert installer has option to use BIOS clock as localtime.
 On normal installer, the BIOS clock is treated as UTC.
 
 4. The Debian expert installer is very intuitive and easy to follow
-(by Linux standard). just follow the steps appear on the screen.
+(by Linux standard). Just follow the steps appear on the screen.
 5. After the installation is finised, detach the USB installer, then reboot.
 It will be boot faster than Arch base installation. And even faster than Alpine.
 Unsure about Void, the last time I use Void, I was still on 5400 RPM HDD.
