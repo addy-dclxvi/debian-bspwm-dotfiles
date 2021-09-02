@@ -45,7 +45,7 @@ Not good for hiding sensitive image or video.
 - **Image Viewer** Viewnior
 - **Sound Mixer** PulseAudio
 
-I have tried to use pure ALSA without PulseAudio, but it makes my
+I have tried to use pure ALSA without PulseAudio, but it made my
 life harder. When I attached my headphone, the speaker was still on.
 I needed to turn the speaker off manually from `alsamixer` command.
 Better to use PulseAudio to make my life easier.
@@ -97,6 +97,13 @@ and tried to quit Writer by typing <Esc> :wq <Enter>.
 
 - **GUI Text Editor** Geany
 - **Screenshooter** scrot
+
+I set the **PrtSc** key to take screenshot using scrot,
+then instantly preview the result using default image viewer.
+So I can hit the delete button in my keyboard if unsatisfied
+with result. Or right click on the image then select edit to
+instantly edit it using GIMP without opening the file manager.
+
 - **Wallpaper Handler** hsetroot
 - **Brightness Manager** xbacklight
 - **Music Player** Cmus
