@@ -106,7 +106,7 @@ File Browser Mode (Num 5)
 
 CMUS is a also good for online radio stream.
 The artist and song title is displayed correctly.
-I save a copy of online radio steam files in this repository,
+I save a copy of online radio stream files in this repository,
 in `~/Music` folder.
 
 > *Why don't you use Spotify like normal people do?*
