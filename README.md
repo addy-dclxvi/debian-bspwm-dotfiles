@@ -37,37 +37,6 @@ Dirty example with some windows opened.
 Not good for hiding sensitive image or video.
 
 - **Terminal** Kitty
-- **Compositor** Compton
-- **Hardware Acceleration Driver** i965-va-driver
-- **Encoder/Decoder** ffmpeg
-- **Media Player** MPV
-
-![](https://i.imgur.com/WEo0CDK.png)
-
-> Gentlemen, welcome to Arch Club.
-> The first rule of Arch Club is you tell everyone you use Arch.
-> The second rule of Arch Club is YOU HAVE TO TELL EVERYONE you use Arch!!
-> Third rule of Arch Club, Someone yells "Install Gentoo!", goes limp, taps out,
-> the install is over. Fourth rule, only one guy to an install.
-> Fifth rule, one install at a time, fellas. Sixth rule, No YouTube tutorial,
-> no blogger tutorial. Seventh rule, install will go on as long as they have to.
-> And the eighth and final rule, If this is your first night at Arch Club,
-> you have to install Arch!
-
-
-![](https://i.imgur.com/E1nOJiE.png)
-
-Steins;Gate
-
-![](https://i.imgur.com/xM3YsVl.png)
-
-Suckseed
-
-![](https://i.imgur.com/NPGzAvy.png)
-
-MPV can stream URL too.
-In example above, I stream a YouTube video from Kurzgesagt channel.
-
 - **Task Manager** HTOP
 
 ![](https://i.imgur.com/AM76LMf.png)
@@ -88,7 +57,7 @@ I have written an article about fish
 
 - **CLI File Manager** Ranger
 
-![](https://i.imgur.com/gjbazp.pngJ)
+![](https://i.ibb.co/9wH5jtK/ranger.png)
 
 - **CLI Image Viewer** Caca
 - **CLI Text Editor** Neovim
@@ -151,6 +120,37 @@ Progressive / Extreme / Technical Death Metal fans.
 Listening radio is better for music discovery.
 I can find many underrated artists and songs from radio.
 
+- **Compositor** Compton
+- **Hardware Acceleration Driver** i965-va-driver
+- **Encoder/Decoder** ffmpeg
+- **Media Player** MPV
+
+![](https://i.imgur.com/WEo0CDK.png)
+
+> Gentlemen, welcome to Arch Club.
+> The first rule of Arch Club is you tell everyone you use Arch.
+> The second rule of Arch Club is YOU HAVE TO TELL EVERYONE you use Arch!!
+> Third rule of Arch Club, Someone yells "Install Gentoo!", goes limp, taps out,
+> the install is over. Fourth rule, only one guy to an install.
+> Fifth rule, one install at a time, fellas. Sixth rule, No YouTube tutorial,
+> no blogger tutorial. Seventh rule, install will go on as long as they have to.
+> And the eighth and final rule, If this is your first night at Arch Club,
+> you have to install Arch!
+
+
+![](https://i.imgur.com/E1nOJiE.png)
+
+Steins;Gate
+
+![](https://i.imgur.com/xM3YsVl.png)
+
+Suckseed
+
+![](https://i.imgur.com/NPGzAvy.png)
+
+MPV can stream URL too.
+In example above, I stream a YouTube video from Kurzgesagt channel.
+
 - **GTK Theme** Materia-light
 - **Icons** Faba
 - **File Manager** Nautilus
@@ -160,11 +160,11 @@ I can find many underrated artists and songs from radio.
 Usually I use Thunar.
 But after Thunar migrated to GTK3, I feel it heavier.
 I tried PCManFM and SpaceFM but did not feel comfortable.
-So I try Nautilus, and it actually not heavy if runs without GNOME.
-And with `--no-install-recommends` flag when installing.
-It only pulls a small amount of GNOME dependencies,
-just like Thunar pulls some XFCE dependencies.
-Also, I have pulled GNOME desktop other component
+So I try Nautilus, and it actually not heavy if it runs without GNOME.
+And with `--no-install-recommends` flag when installing,
+It only pulls a small amount of GNOME dependencies.
+Just like Thunar pulls some XFCE dependencies.
+Also, I have pulled other component of GNOME Desktop,
 like Evince, File Roller, GVFS, Pavucontrol, and GNOME Polkit anyway.
 
 - **Archive Manager** File Roller
@@ -192,6 +192,8 @@ Nothing special here. Default config.
 - **Word Processor** Libreoffice Writer
 
 ![](https://i.imgur.com/UsWzYH1.png)
+
+- **Libreoffice Theme** Sifr
 
 - **Graphic Editor** GIMP
 
@@ -230,21 +232,22 @@ deb http://deb.debian.org/debian bullseye main contrib non-free
 deb http://deb.debian.org/debian-security/ bullseye-security main contrib non-free
 deb http://deb.debian.org/debian bullseye-updates main contrib non-free
 ```
+I don't enable translations and deb-src to make APT works faster.
 
-3. Connect to the internet. Since I have not installed the wifi driver.
+2. Connect to the internet. Since I have not installed the wifi driver.
 The easiest way to connect to the internet is by using my phone in USB Tethering
 mode. Attach the phone then `sudo dhclient usb0`. `usb0` is my USB interface, can be
 found using `ip a` command.
-2. `sudo apt update && sudo apt upgrade`
-3. `sudo apt install git ca-certificates --no-install-recommends`
-4. Clone this git repository
+3. `sudo apt update && sudo apt upgrade`
+4. `sudo apt install git ca-certificates --no-install-recommends`
+5. Clone this git repository
 `git clone --depth=1 https://github.com/addy-dclxvi/debian-bspwm-dotfiles`
-5. Deploy the dotfiles
+6. Deploy the dotfiles
 `cp -r debian-bspwm-dotfiles/. ~`
-6. Get back the packages
+7. Get back the packages
 `sudo sh ~/.local/bin/packages`
 Every packages I use are available in the repository. No need self compiling.
-7. Reboot and fix some problems.
+8. Reboot and fix some problems.
 
 ## How I Set Up Debian Part III: Extra Steps
 - Change the default shell to fish
@@ -260,6 +263,8 @@ layout in Libreoffice when opening *docx* and *xlsx* files.
 - I have installed the hardware acceleration driver.
 Firefox can use it by editing `layers.acceleration.force enabled`
 in `about:config`
+- I want Neovim to be my default CLI text editor. Can be set using
+`sudo update-alternatives --config-editor` command.
 
 ![](https://i.imgur.com/oJDiOnA.png)
 
@@ -282,6 +287,14 @@ I only need to type `launch` to execute the Rofi launcher script.
 - I use Bspwm window rules to make my opened programs more organized.
 Workspace 1 for Terminal. Workspace 2 for Web. Workspace 3 for Files.
 Workspace 4 for Office. Workspace 5 for Multimedia. And Workspace 6 for Settings.
+- I have no dedicated Power Menu. So, create some `*.desktop` files in
+`~/.local/share/applications/` for shutdown, reboot, sleep, hibernate, logout,
+and lock. They will appear in Rofi just like normal apps.
+- `Documents/Backup/` folder contains backups of my files that actually placed in
+`/`.
+- My Wifi interface is `wlp3s0`. If you see it in any configurations file,
+replace it with your own. For example in Polybar config. Wifi interface can be
+found using `ip a` command.
 - Installing Debian from minimal install could be harder than Installing Arch.
 Due to lack of documentation. And not every Arch Wiki guide can be applied on
 Debian because different package manager, package names, package versions
