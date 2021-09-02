@@ -287,7 +287,8 @@ Workspace 1 for Terminal. Workspace 2 for Web. Workspace 3 for Files.
 Workspace 4 for Office. Workspace 5 for Multimedia. And Workspace 6 for Settings.
 - I have no dedicated Power Menu. So, create some `*.desktop` files in
 `~/.local/share/applications/` for shutdown, reboot, sleep, hibernate, logout,
-and lock. They will appear in Rofi just like normal apps.
+and lock. They will appear in Rofi just like normal apps. Accesible on both
+keyboard and mouse.
 - `Documents/Backup/` folder contains backups of my files that actually placed in
 `/`.
 - My Wifi interface is `wlp3s0`. If you see it in any configurations file,
@@ -297,8 +298,11 @@ found using `ip a` command.
 Due to lack of documentation. And not every Arch Wiki guide can be applied on
 Debian because different package manager, package names, package versions
 (package versions in Debian mostly too old), different installation method, etc.
-
-- My screen resolution is only 1366x768
+- My screen resolution is only 1366x768,
+probaby everything will looks so small if this configurations applied in a
+larger screen resolution.
+- I set Bspwm to disable the gaps when only one window is opened.
+Because screen space is important.
 
 ## Keybinds
 I use mouse a lot. So, I try to make my configurations comfortable to use on both
