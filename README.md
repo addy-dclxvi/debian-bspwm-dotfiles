@@ -276,7 +276,8 @@ Writer and Calc only without full Libreoffice suite. It's not possible on Arch.
 
 My 9 years old ThinkPad X230 still works pretty well with Debian.
 
-- I places my autostart files in `~/.xsessionrc`
+- I places my autostart files in `~/.xsessionrc`. I also use that file to export
+environment variable like locality settings, path, and touchpad settings.
 - `~/.local/bin/` is where I place the scripts. I export that location to my
 `$PATH` using `~/.xsessionrc` file. So, instead of typing `~/.local/bin/launch`,
 I only need to type `launch` to execute the Rofi launcher script.
