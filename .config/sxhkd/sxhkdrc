@@ -40,7 +40,7 @@ super + q
 
 # Reload bspwm config
 super + BackSpace
-	bspwmrc; pkill sxhkd; sxhkd &
+	bspwmrc
 
 # Close or kill app
 super + {_,shift + }c

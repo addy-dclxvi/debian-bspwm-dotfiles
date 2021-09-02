@@ -40,3 +40,9 @@ bspc rule -a Audacious state=floating follow=on focus=on
 bspc rule -a Firefox:Places state=floating follow=on focus=on
 bspc rule -a Viewnior state=floating follow=on focus=on
 bspc rule -a mpv state=floating follow=on focus=on
+
+# Bspwm Autostart
+pkill sxhkd
+pkill polybar
+sxhkd &
+polybar top &
