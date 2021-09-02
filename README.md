@@ -196,7 +196,7 @@ Nothing special here. Default config.
 - **Libreoffice Theme** Sifr
 - **Graphic Editor** GIMP
 
-!()[https://i.ibb.co/yFHgph6/gimp.png]
+![](https://i.ibb.co/yFHgph6/gimp.png)
 
 ![]([https://i.imgur.com/cGlUGDV.png)
 
