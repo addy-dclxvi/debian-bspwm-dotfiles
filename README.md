@@ -352,11 +352,8 @@ only works if there are two window or more in a workspace
 [original repository](https://github.com/vim-syntastic/syntastic)
 - Mu Complete [original repository](https://github.com/lifepillar/vim-mucomplete)
 - Airline [original repository](https://github.com/vim-airline/vim-airline)
-- I get the wallpaper from
-[Freepik](https://www.freepik.com/free-vector/map-big-data-modern-city_8289177.htm)
-
-LICENSE Free with Attribution
-
+- I get the wallpaper from Freepik,
+LICENSE Free with Attribution.
 [City vector created by GarryKillian](https://www.freepik.com/vectors/city)
-[www.freepik.com](www.freepik.com)
+[- www.freepik.com](www.freepik.com).
 
