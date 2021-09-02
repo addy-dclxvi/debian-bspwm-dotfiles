@@ -54,5 +54,5 @@ A repository contains backups of my Debian configurations to make myself easier 
 - **Spreadseet** Libreoffice Calc
 ![](https://imgur.com/eZ2kyl1.png)
 - **Word Processor** Libreoffice Writer
-![](https://imgur.com/UsWzYH1)
+![](https://imgur.com/UsWzYH1.png)
 - **Printer Driver** GutenPrint
