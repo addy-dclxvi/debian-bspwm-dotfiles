@@ -29,11 +29,11 @@ And I try to make my Bspwm setup comfortably usable on both keyboard and mouse.
 
 ![](https://i.imgur.com/5QaNc7i.png)
 
-Clean sample without any without any window opened.
+Clean sample without any window opened.
 
 ![](https://i.imgur.com/OAXaEW3.png)
 
-Dirty example with some windows opened.
+Dirty sample with some windows opened.
 Not good for hiding sensitive image or video.
 
 - **Terminal** Kitty
