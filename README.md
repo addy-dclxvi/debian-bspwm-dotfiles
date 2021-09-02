@@ -16,8 +16,10 @@ A repository contains backups of my Debian configurations to make myself easier 
 - **Terminal** Kitty
 - **Compositor** Compton
 - **GTK Theme** Materia-light
+- **File Manager** Nautilus
+![](https://imgur.com/PBNhpEy.png)
 - **Icons** Faba
-- **Lock Screen**
+- **Lock Screen** i3lock
 ![](https://imgur.com/5QaNc7i.png)
 ![](https://imgur.com/OAXaEW3.png)
 - **Web Browser** Firefox
