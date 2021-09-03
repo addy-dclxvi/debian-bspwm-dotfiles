@@ -178,6 +178,8 @@ It only pulls a small amount of GNOME dependencies.
 Just like Thunar pulls some XFCE dependencies.
 Also, I have pulled other component of GNOME Desktop,
 like Evince, File Roller, GVFS, Pavucontrol, and GNOME Polkit anyway.
+Utilization of shared dependencies will make my setup has
+a smaller footprint.
 
 - **Archive Manager** File Roller
 - **PDF Reader** Evince
