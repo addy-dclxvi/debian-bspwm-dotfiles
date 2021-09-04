@@ -65,7 +65,20 @@ I have written an article about fish
 
 ![](https://i.ibb.co/pWjFpyV/ranger.png)
 
+*Update 4 September 2021*
+
+![](https://i.imgur.com/SPcErX5.png)
+
+Just updated the Ranger colorscheme to make it matches with 
+my overall setup.
+
 - **CLI Image Viewer** Caca
+
+![](https://i.imgur.com/1FzVXk7.png)
+
+I use Caca as terminal image previewer in Ranger.
+That's a photo of me and my friends at Mount Bromo, East Java.
+
 - **CLI Text Editor** Neovim
 
 ![](https://i.imgur.com/8AVGrcH.png)
