@@ -42,7 +42,6 @@ Not good for hiding sensitive image or video.
 ![](https://i.imgur.com/WZ4qNqd.png)
 
 - **Power Manager** TLP
-- **Image Viewer** Viewnior
 - **Sound Mixer** PulseAudio
 
 I have tried to use pure ALSA without PulseAudio, but it made my
@@ -108,13 +107,16 @@ Once I tried to navigate a Spreadseet using H-J-K-L
 and tried to quit Writer by typing <Esc> :wq <Enter>.
 
 - **GUI Text Editor** Geany
+- **Image Viewer** Viewnior
 - **Screenshooter** scrot
+
+![](https://i.imgur.com/cQ2RE2z.png)
 
 I set the **PrtSc** key to take screenshot using scrot,
 then instantly preview the result using default image viewer.
 So I can hit the delete button in my keyboard if unsatisfied
-with the result. Or right click on the image then select edit to
-instantly edit it using GIMP without opening the file manager.
+with the result. Or, right click on the image then select open with GIMP,
+to instantly edit it using GIMP without opening the file manager.
 
 - **Wallpaper Handler** hsetroot
 - **Brightness Manager** xbacklight
