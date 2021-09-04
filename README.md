@@ -39,7 +39,7 @@ Not good for hiding sensitive image or video.
 - **Terminal** Kitty
 - **Task Manager** HTOP
 
-![](https://i.imgur.com/AM76LMf.png)
+![](https://i.imgur.com/WZ4qNqd.png)
 
 - **Power Manager** TLP
 - **Image Viewer** Viewnior
@@ -63,14 +63,13 @@ I have written an article about fish
 
 - **CLI File Manager** Ranger
 
-![](https://i.ibb.co/pWjFpyV/ranger.png)
+![](https://i.imgur.com/32ylsaf.png)
 
-*Update 4 September 2021*
+Highlight feature in Ranger
 
 ![](https://i.imgur.com/SvdZAmD.png)
 
-Just updated the Ranger colorscheme to make it matches with 
-my overall setup.
+Tinkering with Ranger colorscheme
 
 - **CLI Image Viewer** Caca
 
@@ -92,7 +91,7 @@ this setup on a freshly installed machine. They are placed in
 
 ![](https://i.imgur.com/4deA5tS.png)
 
-![](https://i.imgur.com/7brOSuK.png)
+![](https://i.imgur.com/53DybwS.png)
 
 ![](https://i.imgur.com/ZL25J8j.png)
 
@@ -121,15 +120,15 @@ instantly edit it using GIMP without opening the file manager.
 - **Brightness Manager** xbacklight
 - **Music Player** Cmus
 
-![](https://i.imgur.com/dpr071F.png)
+![](https://i.imgur.com/cNhJJhn.png)
 
 Tree/Library Mode (Num 1)
 
-![](https://i.imgur.com/BGbSj5c.png)
+![](https://i.imgur.com/UIZdICk.png)
 
 Playlist Mode (Num 2)
 
-![](https://i.imgur.com/LrPfkD1.png)
+![](https://i.imgur.com/KfA8UKy.png)
 
 File Browser Mode (Num 5)
 
@@ -145,18 +144,12 @@ Progressive / Extreme / Technical Death Metal fans.
 Listening radio is better for music discovery.
 I can find many underrated artists and songs from radio.
 
-*Update 4 September 2021*
-
-![](https://i.imgur.com/IZyLB4n.png)
-
-Just updated Cmus colorscheme to make it matches with my overall setup.
-
 - **Compositor** Compton
 - **Hardware Acceleration Driver** i965-va-driver
 - **Encoder/Decoder** ffmpeg
 - **Media Player** MPV
 
-![](https://i.imgur.com/WEo0CDK.png)
+![](https://i.imgur.com/CZkrpsS.png)
 
 > *Gentlemen, welcome to Arch Club.*
 > *The first rule of Arch Club is you tell everyone you use Arch.*
@@ -173,7 +166,7 @@ Just updated Cmus colorscheme to make it matches with my overall setup.
 
 Steins;Gate
 
-![](https://i.imgur.com/xM3YsVl.png)
+![](https://i.imgur.com/undefined.png)
 
 Suckseed
 
@@ -242,6 +235,7 @@ My GIMP scripts collection mostly no longer works.
 
 - **Printer Driver** CUPS + GutenPrint
 - **Torrent Client** Transmission
+- **Non-Free Drivers** Broadcom Bluetooth & Intel Wifi
 
 ## How I Set Up Debian Part I : Debian Expert Installer
 1. I use Debian Minimal CD (377MB) without any Desktop Environment.
@@ -298,6 +292,7 @@ Without it, Nautilus cannot mount my external drive.
 Then enable the themes by editing `/etc/slim.conf`.
 - (Optional) Copy fonts from Windows partition to reduce the chance of broken
 layout in Libreoffice when opening *docx* and *xlsx* files.
+- Generate user dirs by running `xdg-user-dirs-update` in terminal.
 
 ![](https://i.imgur.com/oJDiOnA.png)
 
