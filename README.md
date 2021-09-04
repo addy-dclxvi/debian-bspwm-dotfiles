@@ -133,7 +133,7 @@ Playlist Mode (Num 2)
 
 File Browser Mode (Num 5)
 
-CMUS is a also good for online radio stream.
+Cmus is a also good for online radio stream.
 The artist and song title is displayed correctly.
 I save a copy of online radio stream files in this repository,
 in `~/Music` folder.
@@ -144,6 +144,12 @@ Because Spotify recommendation playlist is not designed for
 Progressive / Extreme / Technical Death Metal fans.
 Listening radio is better for music discovery.
 I can find many underrated artists and songs from radio.
+
+*Update 4 September 2021*
+
+![](https://i.imgur.com/IZyLB4n.png)
+
+Just updated Cmus colorscheme to make it matches with my overall setup.
 
 - **Compositor** Compton
 - **Hardware Acceleration Driver** i965-va-driver
