@@ -31,7 +31,7 @@ And I try to make my Bspwm setup comfortably usable on both keyboard and mouse.
 
 Clean sample without any window opened.
 
-![](https://i.imgur.com/OAXaEW3.png)
+![](https://i.imgur.com/8FQPdCP.png)
 
 Dirty sample with some windows opened.
 Not good for hiding sensitive image or video.
@@ -73,7 +73,7 @@ Tinkering with Ranger colorscheme
 
 - **CLI Image Viewer** Caca
 
-![](https://i.imgur.com/1FzVXk7.png)
+![](https://i.imgur.com/kgjxR5B.png)
 
 I use Caca as terminal image previewer in Ranger.
 That's a photo of me and my friends at Mount Bromo, East Java.
@@ -216,6 +216,13 @@ I have been tricked for 26 chapters.
 ![](https://i.imgur.com/1USbRal.png)
 
 Nothing special here. Default config.
+
+![](https://i.imgur.com/Tm2x0gM.png)
+
+JoJo's Part IV: Debian is Unbreakable
+
+When you are so overpowered. You forget that you are no longer the main
+protagonist in this part, and keep beating the main villain.
 
 - **Spreadseet** Libreoffice Calc
 
