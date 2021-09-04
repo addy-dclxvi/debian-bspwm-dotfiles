@@ -67,7 +67,7 @@ I have written an article about fish
 
 *Update 4 September 2021*
 
-![](https://i.imgur.com/SPcErX5.png)
+![](https://i.imgur.com/SvdZAmD.png)
 
 Just updated the Ranger colorscheme to make it matches with 
 my overall setup.

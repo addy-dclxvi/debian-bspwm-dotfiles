@@ -91,7 +91,7 @@ class Default(ColorScheme):
 			if context.hostname:
 				fg = red if context.bad else blue
 			elif context.directory:
-				fg = green
+				fg = white
 			elif context.tab:
 				if context.good:
 					bg = green
