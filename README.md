@@ -110,7 +110,7 @@ and tried to quit Writer by typing <Esc> :wq <Enter>.
 - **Image Viewer** Viewnior
 - **Screenshooter** scrot
 
-![](https://i.imgur.com/cQ2RE2z.png)
+![](https://i.ibb.co/b7z3zLY/viewnior.png)
 
 I set the **PrtSc** key to take screenshot using scrot,
 then instantly preview the result using default image viewer.
