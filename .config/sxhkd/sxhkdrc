@@ -6,9 +6,13 @@ super + Return
 super + a
 	launch
 
+# Launch Web Browser
+super + {_,shift + }w
+	x-www-browser {_,--private-window}
+
 # Launch common apps
-super + {e,w,g}
-	{nautilus --new-window,firefox,geany}
+super + {e,g}
+	{nautilus --new-window,geany}
 
 # Lockscreen
 super + l

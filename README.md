@@ -353,7 +353,8 @@ left hand only, but still easy to memorize.
 
 - **Super + Enter** Launch terminal
 - **Super + A** App launcher
-- **Super + W** launch Web Browser
+- **Super + W** Launch Web Browser
+- **Super + Shift + W** Launch Web Browser in Incognito mode
 - **Super + E** Launch File Explorer
 - **Super + Q** Quit Bspwm
 - **Super + Backspace** Reload Bspwm
