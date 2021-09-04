@@ -166,7 +166,7 @@ I can find many underrated artists and songs from radio.
 
 Steins;Gate
 
-![](https://i.imgur.com/undefined.png)
+![](https://i.imgur.com/eHbmzeT.png)
 
 Suckseed
 
@@ -292,9 +292,10 @@ Without it, Nautilus cannot mount my external drive.
 Then enable the themes by editing `/etc/slim.conf`.
 - (Optional) Copy fonts from Windows partition to reduce the chance of broken
 layout in Libreoffice when opening *docx* and *xlsx* files.
-- Generate user dirs by running `xdg-user-dirs-update` in terminal.
 
 ![](https://i.imgur.com/oJDiOnA.png)
+
+- Generate user dirs by running `xdg-user-dirs-update` in terminal.
 
 - I have installed the hardware acceleration driver.
 Firefox can use it by editing `layers.acceleration.force enabled`
