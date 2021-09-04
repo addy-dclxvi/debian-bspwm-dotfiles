@@ -164,6 +164,12 @@ MPV can stream URL too.
 In example above, I stream a YouTube video from Kurzgesagt channel.
 
 - **GTK Theme** Materia-light
+
+I usually use light GTK theme. Even if I use dark GTK theme,
+the GIMP canvas, Libreoffice paper, ebook background, will be still white.
+The internet is also white. Causing my eyes to work harder.
+So better to use light theme for GTK for a better readability.
+ 
 - **Icons** Faba
 - **File Manager** Nautilus
 
