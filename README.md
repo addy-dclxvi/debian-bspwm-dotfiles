@@ -136,6 +136,7 @@ File Browser Mode (Num 5)
 
 Cmus is a also good for online radio stream.
 The artist and song title is displayed correctly.
+And the buffer is very stable.
 I save a copy of online radio stream files in this repository,
 in `~/Music` folder.
 
