@@ -36,6 +36,7 @@ xbacklight -set 5
 xrdb -merge ~/.Xresources
 hsetroot -fill ~/Pictures/Cartography.png
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+devmon &
 xsettingsd &
 dunst &
 compton -b
