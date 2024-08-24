@@ -9,7 +9,7 @@ i965-va-driver intel-microcode kitty less libmtp-common libmtp-runtime \
 libnotify-bin libreoffice-calc libreoffice-gtk3 libreoffice-style-sifr \
 libreoffice-writer lxappearance man-db materia-gtk-theme mpv mtp-tools nautilus \
 neovim network-manager ntfs-3g p7zip-full pavucontrol policykit-1-gnome polybar \
-printer-driver-gutenprint pulseaudio ranger rofi scrot sudo system-config-printer \
+printer-driver-gutenprint pulseaudio ranger rofi scrot slim sudo system-config-printer \
 system-config-printer-udev tlp ttf-bitstream-vera transmission-gtk udevil \
 viewnior wget x11-xserver-utils xbacklight xdg-user-dirs xdg-utils \
 xserver-xorg-core xserver-xorg-input-kbd xserver-xorg-input-libinput \
